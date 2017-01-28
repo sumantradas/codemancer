@@ -31,6 +31,7 @@ app.service('loginService',function($http){
 			 }),function(response){
 				console.log("error")
 			}
+		}
 
 	}
 })
