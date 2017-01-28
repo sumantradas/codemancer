@@ -1,0 +1,14 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+#registered{
+	font-family: 'Pacifico', cursive;
+}
+.wrapper {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.validation{
+  color: red;
+}
