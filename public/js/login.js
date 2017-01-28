@@ -6,9 +6,9 @@ app.service('loginService',function($http){
 
 		$http.post('/',loginData){
 			headers: {
-        'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'
-		}
-		}
+				'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'
+			}
+		
 			.then(function (response) {	
 				console.log(response);
 				if(response.data.flag==0){
