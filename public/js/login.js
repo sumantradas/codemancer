@@ -4,10 +4,8 @@ app.service('loginService',function($http){
 
 	this.data = function(loginData){
 
-		$http.post('/',loginData){
-			headers: {
-				'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'
-			}
+		$http.post('/',loginData)
+			
 		
 			.then(function (response) {	
 				console.log(response);
@@ -33,7 +31,7 @@ app.service('loginService',function($http){
 			}
 		}
 
-	}
+	
 })
 
 
